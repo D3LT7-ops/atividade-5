@@ -1,4 +1,61 @@
 /* Reset básico */
+/* SEÇÃO IMAGEM COM TEXTO SOBRE */
+.imagem-com-texto {
+  position: relative;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+.imagem-com-texto img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+/* Caixa com texto sobre a imagem */
+.texto-sobre-imagem {
+  position: absolute;
+  top: 10px; /* Alinhado no topo da imagem */
+  left: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.5); /* fundo preto semi transparente */
+  color: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Mesma ideia para texto sobre vídeo */
+.video-com-texto {
+  margin-bottom: 30px;
+}
+
+.video-com-texto .texto-sobre-video {
+  background-color: rgba(243, 156, 18, 0.7); /* laranja semitransparente */
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  max-width: fit-content;
+  margin-bottom: 10px;
+}
+
+/* Texto sobre lista */
+.lista-com-texto {
+  margin-bottom: 30px;
+}
+
+.lista-com-texto .texto-sobre-lista {
+  background-color: rgba(52, 73, 94, 0.8); /* azul escuro semitransparente */
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  max-width: fit-content;
+  margin-bottom: 10px;
+}
+
 * {
   margin: 0;
   padding: 0;

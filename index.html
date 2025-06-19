@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title> Museu da Música Brasileira </title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Museu da Música Brasileira</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <header>
@@ -21,20 +21,29 @@
   </header>
 
   <main>
-    <section>
-      <h2>Bem-vindo ao Museu da Música Brasileira</h2>
-      <p>Explore a rica história e cultura da música do Brasil através das nossas exposições, vídeos e eventos.</p>
-      <img src="images/museu.jpg" alt="Interior do museu" class="imagem-central" />
+    <!-- PRIMEIRA SEÇÃO COM TEXTO SOBRE FOTO -->
+    <section class="imagem-com-texto">
+      <img src="images/museu.jpg" alt="Interior do museu" />
+      <div class="texto-sobre-imagem">
+        <h2>Bem-vindo ao Museu da Música Brasileira</h2>
+        <p>Explore a rica história e cultura da música do Brasil através das nossas exposições, vídeos e eventos.</p>
+      </div>
     </section>
 
-    <section>
-      <h3>Vídeo em destaque</h3>
+    <!-- SEGUNDA SEÇÃO COM TEXTO SOBRE VIDEO -->
+    <section class="video-com-texto">
+      <div class="texto-sobre-video">
+        <h3>Vídeo em destaque</h3>
+      </div>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/OsJkPqfXJ9M" 
         title="Vídeo do Museu da Música" frameborder="0" allowfullscreen></iframe>
     </section>
 
-    <section>
-      <h3>Por que visitar?</h3>
+    <!-- TERCEIRA SEÇÃO COM TEXTO SOBRE LISTA -->
+    <section class="lista-com-texto">
+      <div class="texto-sobre-lista">
+        <h3>Por que visitar?</h3>
+      </div>
       <ul>
         <li>Conheça a história da música brasileira
           <ul>
@@ -52,7 +61,7 @@
     <p>Contato: contato@museudamusica.com.br | Redes: @museudamusica</p>
     <p>Imagens de artistas retiradas da Wikipedia, uso educacional.</p>
   </footer>
-  <script src="js/script.js"></script>
 
+  <script src="js/script.js"></script>
 </body>
 </html>
